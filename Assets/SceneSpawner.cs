@@ -5,7 +5,10 @@ using UnityEngine;
 public class SceneSpawner : MonoBehaviour
 {
     public GameObject background;
+    public GameObject thisObject;
     private bool shouldSpawn = true;
+    public ParticleSystem burst;
+    public float floatTime;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +20,24 @@ public class SceneSpawner : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public IEnumerator disappearAfterSec(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+
+    }
+
+    public void floatBurst()
+    {
+        Invoke("playBurst", this.floatTime);
+        Invoke("spawnScene", this.floatTime);
+    }
+
+    private void playBurst()
+    {
+        this.burst.Play();
     }
 
     public void spawnScene()

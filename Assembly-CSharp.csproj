@@ -123,6 +123,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportPoint.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/FingerTipPokeTool.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs" />
+    <Compile Include="Assets/WorldController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerNavMesh.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/ControllerBoxController.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCarBase.cs" />
+    <Compile Include="Assets/SceneSpawner.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/RayTool.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/FingerTipPokeToolView.cs" />
@@ -208,8 +210,6 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/SelectivePassthroughExperience.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
-    <Compile Include="Assets/WorldController.cs" />
-    <Compile Include="Assets/SceneSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />

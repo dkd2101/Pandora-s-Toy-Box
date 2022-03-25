@@ -17,8 +17,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
     Unity.XR.Interaction.Toolkit.Editor.dll:
@@ -140,21 +138,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6566}
+      Script: {instanceID: 6298}
     - Class: 114
-      Script: {instanceID: 8086}
+      Script: {instanceID: 6568}
     - Class: 114
-      Script: {instanceID: 8894}
+      Script: {instanceID: 8088}
     - Class: 114
-      Script: {instanceID: 9592}
+      Script: {instanceID: 8896}
     - Class: 114
-      Script: {instanceID: 11056}
+      Script: {instanceID: 9594}
     - Class: 114
-      Script: {instanceID: 11580}
+      Script: {instanceID: 11058}
     - Class: 114
-      Script: {instanceID: 30706}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 39856}
+      Script: {instanceID: 11584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -188,16 +186,16 @@ ScriptsOnlyBuild:
     className: ActionBasedContinuousTurnProvider
   - hash:
       serializedVersion: 2
-      Hash: a6c29e92dd6fcd5262c7189a67722496
-    assemblyName: Unity.XR.Interaction.Toolkit.dll
-    namespaceName: UnityEngine.XR.Interaction.Toolkit
-    className: ActionBasedContinuousMoveProvider
-  - hash:
-      serializedVersion: 2
       Hash: dda32ffa9d59b8eb1822fc59bdec67fa
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: ActionBasedSnapTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: a6c29e92dd6fcd5262c7189a67722496
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedContinuousMoveProvider
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -1890,6 +1888,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
     className: IAPManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9171202847f2b75f88a44fce3d6b403e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldController
   - hash:
       serializedVersion: 2
       Hash: 8cf111447f1f4754264a4de62c3f57df
@@ -3836,16 +3840,22 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 329a4358a2c40fe3c40f44951200bd91
+      Hash: 71542834a45b469eae1b905c22b589c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: OvrAvatarComponent
+    className: SceneSpawner
   - hash:
       serializedVersion: 2
       Hash: f8f6ce6f313604e43802c701379332d3
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: GrabInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 329a4358a2c40fe3c40f44951200bd91
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OvrAvatarComponent
   - hash:
       serializedVersion: 2
       Hash: f105a75aca2444a2a486aea5c350bfa1
@@ -4050,19 +4060,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: 9171202847f2b75f88a44fce3d6b403e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WorldController
-  - hash:
-      serializedVersion: 2
-      Hash: 6c61a7cab90ca0e4aa3f29f7c42ac60e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneSpawner
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/dylan/Documents/Reality Hack/RealityHackv4.apk
+  playerPath: /Users/dylan/Documents/Reality Hack/RealityHackv5.apk
