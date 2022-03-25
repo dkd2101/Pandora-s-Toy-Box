@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637837502190000000
+      ticks: 637837531460000000
     m_Hash: 3697033262
   m_LockFileStatus:
     m_FilePath: /Users/dylan/Documents/Reality Hack/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637837502190000000
+      ticks: 637837531460000000
     m_Hash: 4111360234
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
