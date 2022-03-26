@@ -230,6 +230,7 @@
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/OculusSampleTrainPropsShader.shader" />
     <None Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyCubeWithOutline.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.shader" />
+    <None Include="Assets/QuillShader.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader" />

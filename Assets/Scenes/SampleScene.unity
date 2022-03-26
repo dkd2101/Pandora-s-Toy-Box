@@ -305,7 +305,7 @@ GameObject:
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -324,8 +324,8 @@ MonoBehaviour:
   m_Camera: {fileID: 723698504}
   m_OriginBaseGameObject: {fileID: 45506694}
   m_CameraFloorOffsetObject: {fileID: 1206389372}
-  m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.1176
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 0
 --- !u!4 &45506696
 Transform:
   m_ObjectHideFlags: 0
@@ -334,7 +334,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45506694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 2.905, y: -0.179, z: -4.971}
+=======
+  m_LocalPosition: {x: 2.392, y: -0.395, z: -4.231}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1223,15 +1227,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a00d2d053cb5e49a4b776fa9430c641c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.294506
+      value: 1.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a00d2d053cb5e49a4b776fa9430c641c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2681674
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a00d2d053cb5e49a4b776fa9430c641c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.1333885
+      value: -4.55
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a00d2d053cb5e49a4b776fa9430c641c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1496,7 +1500,7 @@ GameObject:
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1507,14 +1511,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723698500}
-  m_LocalRotation: {x: -0, y: 0.896318, z: -0, w: -0.44341186}
-  m_LocalPosition: {x: 0.204, y: -0.7, z: 0.33399987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.322, y: -0.055, z: -0.942}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1206389373}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 232.644, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &723698502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1730,7 +1734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740198326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.35, y: -1.43, z: -2.9}
+  m_LocalPosition: {x: 1.35, y: -1.025, z: -2.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2865,7 +2869,19 @@ MonoBehaviour:
       m_Calls: []
   m_LastSelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1706312233}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: set_useGravity
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
@@ -2910,19 +2926,7 @@ MonoBehaviour:
         m_CallState: 2
   m_Activated:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1706312238}
-        m_TargetAssemblyTypeName: SceneSpawner, Assembly-CSharp
-        m_MethodName: deSpawnScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -2955,7 +2959,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -2987,7 +2991,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 1
+  m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 0
   m_AttachPointCompatibilityMode: 0
 --- !u!54 &1706312233
@@ -3076,14 +3080,19 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706312231}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.844, y: -0.744, z: -4.379}
+  m_LocalRotation: {x: -0.18081999, y: -0.07139622, z: -0.45986655, w: 0.8664465}
+  m_LocalPosition: {x: 1.905, y: -0.601, z: -4.557}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -22.272, y: 2.638, z: -56.434}
+>>>>>>> Stashed changes
 --- !u!114 &1706312238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,7 +3106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   background: {fileID: 457402254}
-  thisObject: {fileID: 0}
+  baseGround: {fileID: 740198326}
   burst: {fileID: 1706312239}
   floatTime: 1.5
 --- !u!198 &1706312239
@@ -8266,7 +8275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767800295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.44, y: -0.776, z: -4.654}
+  m_LocalPosition: {x: 2.44, y: -0.641, z: -4.654}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8354,6 +8363,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1767800295}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls:
@@ -8401,7 +8422,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
